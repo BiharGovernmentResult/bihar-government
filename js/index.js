@@ -25,3 +25,14 @@ accordions.forEach((accordion) => {
     }
   };
 });
+
+// menu
+
+const menuButton = document.getElementById("menuButton");
+const menuContent = document.getElementById("menuContent");
+menuContent.classList.add("hidden");
+
+menuButton.addEventListener("click", () => {
+  menuContent.classList.toggle("hidden");
+  menuContent.classList.toggle("visible");
+});
