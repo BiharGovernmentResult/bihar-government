@@ -652,4 +652,7 @@ td {
   .left__topArea {
     padding: 20px 32px;
   }
+  h1 {
+    font-size: 28px;
+  }
 }
